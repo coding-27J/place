@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: rgb(18, 113, 37);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: rgb(84, 137, 104);
+            
+        }
+        button{
+                padding: 5px;
+                border-radius: 10px;
+
+                border: none;
+                background-color: #af664c;
+                color: white;
+                cursor: pointer;
+                
+                width: 70%;
+                font-size: 13px;
+    
+        
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h2>Registration Form</h2><hr>
+
+        <form>
+            
+            <label for="Studentname">Student Name:</label><br>
+                <input type="text" placeholder="Firstname" required>
+                <input type="text" placeholder="Lastname" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" placeholder="Email" required><br><br>
+            
+            <label for="Gender">Gender:</label>
+                
+            <input type="radio" name="gender" checked>Female
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Other<br>
+            <br>
+            <label for="Date of Birthdate">Birthdate:</label>
+             <input type="date"><br><br>
+            <label for="Phone Number">Phone Number:</label>
+            <input type="Phone Number" placeholder="Phone Number" required><br><br>
+                
+       
+            
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password" required>
+        <br><br>
+        
+            
+        <button type="submit">Login</button>
+            
+            <br><br>
+            <p class="text-center">Already have an account? <a href="#">Login</a></p>
+        </form>
+    </center>
+    </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins",sans-serif;
+
+    }
+    body{
+        display: flew;
+        justify-content: center;
+        align-items: center;
+        min-height: 100;
+        background:url(D:\bg.jpg.webp) no-repeat;
+        background-size: cover;
+        background-position: center ;
+
+    }
+    .wrapper{
+        width:430px;
+        background: transparent;
+        border: 2px solid rgba(255,255,255,.1);
+        backdrop-filter: blur(10px);
+        color:#fff;
+        border-radius:12px;
+        padding: 30px 40px;
+    }
+    .wrapper h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .wrapper .input-box{
+        width: 100px;
+        height:30px;
+        background: yellow;
+        margin: 30px 0;
+
+    }
+    .input-box input{
+        width:100px;
+        height:100px;
+        background: transparent;
+        border:none;
+        outline:none;
+        border:2px solid rgba(255,255,255,.2);
+         border-radius: 50px;
+         font-size: 16px;
+         color:#fff;
+         padding: 20px 45px,20px;
+
+    }
+    .input-box input::placeholder{
+        color:#fff;
+    }
+    .input-box i{
+       position:absolute;
+       right:20px;
+       top:30px;
+       transform: translate(-30%);
+       font-size: 20px;
+
+    }
+    .wrapper.remember-forgot{
+        display:flex;
+        justify-self: space-between;
+        font-size: 14px;
+        margin:-17px 0 15px;
+
+    }
+    .remember-forgot label input{
+        accent-color:#fff;
+        text-decoration: none;
+    }
+    .remember-forgot a{
+        color:#fff;
+        text-decoration: underline;
+
+    }
+    .remember-forgot a:hover{
+    text-decoration: underline;
+
+    }
+
+    .wrapper.btn{
+        width: 100px;
+        height: 45px;
+        background: #0000;
+        border:none;
+        outline:none;
+        border-radius: 49px;
+        box-shadow: 0 0 10px rgb(red, green, blue);
+        cursor:pointer;
+        font-size:16px;
+        color:#333;
+        font-weight:600;
+    }
+    .wrapper .register-link{
+        font-size: 14px;
+        text-align: center;
+        margin:20px 0;
+
+    }
+    .register-link p a{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 600px;
+    }
+    .register-link p a:hover{
+        text-decoration:underline;
+
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <h1>login</h1>
+    <div class="input-box">
+        <input type="text"placeholder="username" required>
+        <i class='bx bxs-user' ></i>
+        </div>
+        <input type="password"placeholder="password" required>
+        <i class='bx bxs-lock' ></i>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">remenber me</label>
+            <a href="#">forgot password</a>
+            </div>
+            <button type="submit" class="btn">login</button>
+            <div class="register-link">
+                <p>dont have an account? <a href="#">register"</a></p>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

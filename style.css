@@ -1,0 +1,25 @@
+h1{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 20px;
+}
+h1{
+    border: 2px solid greenyellow;
+    background-color: #993d3d;
+    margin-left: 2px;
+  }
+  
+table {
+    border: 2px solid rgb(204, 155, 23);
+    background-color: #2d4e63;
+    height: 500px;
+    width: 500px;
+  }
+
+  
+  th{
+    border: 1px solid #851010;
+    padding: 8px;
+    text-align: left;
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+            background-color: purple;
+    }
+    .main{
+        margin: 90px;
+        border: black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: #aaaac5;
+
+    }
+    h1{
+        color: rgb(15, 88, 197);
+    }
+    p{
+        background-color: rgb(43, 139, 195);
+    }
+    input[type="button"]:hover {
+            background-color: rgb(7, 56, 123);
+        }
+    
+    </style>
+</head>
+<body >
+    <div class="main">
+    <form>
+       <h1 style="text-align: center;">Registration Form</h1><hr>
+            <center>
+            
+            <label for="name">*Name</label>
+            <input type="text" id="name" placeholder="Enter Name" size="15" maxlength="30" required><br><br>
+                <label for="email">*Email Address</label>
+                <input type="email" id="email" placeholder= "Email Address" size="15" maxlength="30" required><br><br>
+                <label for="contact no">*Country</label>
+                <input type="text" id="name"placeholder="Country" required><br><br>
+                <label for="Gender">*Gender:</label>
+                <input type="radio" name="gender" checked>Female
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Other<br><br>
+            <label for="Password">*Password</label>
+            <input for="text"id="name"placeholder="password" aria-required><br><br>
+            <input type="button" value="Create account">
+            <p class="text-center">Already have an account? <a href="#">Login</a></p>
+            </center>
+        
+    </form>
+    </div>
+</body>
+</html>
